@@ -48,6 +48,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Device.Gpio": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

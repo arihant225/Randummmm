@@ -2,25 +2,25 @@
 using Randummmm.WebApi.Hubs;
 using Randummmm.WebApi.DTOs;
 using Randummmm.WebApi.HelperFunctions.Interface;
+
 namespace Randummmm.WebApi.HelperFunctions
 {
-    public class LiveHelper:ILiveHelper
+    public class LiveHelper : BackgroundService
     {
         readonly IHubContext<LiveHub> HubContext ;
         public LiveHelper(IHubContext<LiveHub> HubContext) { 
             this.HubContext = HubContext;
-            this.StartAgent(HubContext.Clients);
         } 
         public static SortedList<string, string> Connections = new();
         public static SortedList<string, string> GroupNames = new();
         public static SortedList<string,string> Matches = new();
-        public static   List<string>  Requests=new(); 
+        public static   List<string>  Requests=new();
 
-        public  void  StartAgent(IHubClients clients)
+        protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            Task.Run(async () =>
+            var clients = this.HubContext.Clients;
+           return Task.Run(async () =>
             {
-
                 Random rnd = new Random();
                 while (true)
                 {
@@ -51,6 +51,7 @@ namespace Randummmm.WebApi.HelperFunctions
                                            ConnectionId = FriendConnectionId,
                                            Name = Connections[FriendConnectionId]
                                        });
+                                   
                                
                                     Matches.Add(tempConnectionId,FriendConnectionId);
                                     Matches.Add(FriendConnectionId, tempConnectionId);
@@ -66,5 +67,7 @@ namespace Randummmm.WebApi.HelperFunctions
             
 
         }
+
+       
     }
 }

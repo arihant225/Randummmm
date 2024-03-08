@@ -31,3 +31,4 @@ C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Debug\net7.0\refint\R
 C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Debug\net7.0\Randummmm.WebApi.pdb
 C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Debug\net7.0\Randummmm.WebApi.genruntimeconfig.cache
 C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Debug\net7.0\ref\Randummmm.WebApi.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\bin\Debug\net7.0\System.Device.Gpio.dll

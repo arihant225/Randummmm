@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TRdb48KI+iuhMGZdR1VU7lYBOx46a0jNFatnu693sBqOxr9hFgYeJ7t2IbqaTgwAeNQ2QKKvZffSu8mSED0Q5A==",
+  "dgSpecHash": "d2Ly3Spo9fhVuSpqFDhp1HcAG+6cmUuTedln8Iagf5vLmDjtzJkUWdty2DpDvvxp9ndrqnMaL46XVyvfPT5RoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jarih\\source\\repos\\Randummmm\\Randummmm.WebApi\\Randummmm.WebApi.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "C:\\Users\\jarih\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\jarih\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\jarih\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\jarih\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\jarih\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\jarih\\.nuget\\packages\\system.device.gpio\\3.1.0\\system.device.gpio.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

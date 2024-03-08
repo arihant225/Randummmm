@@ -9,7 +9,8 @@
       "Randummmm.WebApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.5",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "System.Device.Gpio": "3.1.0"
         },
         "runtime": {
           "Randummmm.WebApi.dll": {}
@@ -72,6 +73,14 @@
             "fileVersion": "6.4.0.0"
           }
         }
+      },
+      "System.Device.Gpio/3.1.0": {
+        "runtime": {
+          "lib/net6.0/System.Device.Gpio.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.23.56604"
+          }
+        }
       }
     }
   },
@@ -129,6 +138,13 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "System.Device.Gpio/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Jw7+lTwdU63zsaD9a6H47YC/LK6lGhi3SKBGdf1jV0ySj22NJkglQ35dBZWbtwiXOzbBn3Gl8XzIcpv1pai3Q==",
+      "path": "system.device.gpio/3.1.0",
+      "hashPath": "system.device.gpio.3.1.0.nupkg.sha512"
     }
   }
 }

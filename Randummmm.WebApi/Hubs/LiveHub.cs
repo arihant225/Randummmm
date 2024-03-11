@@ -96,5 +96,14 @@ namespace Randummmm.WebApi.Hubs
             await this.Groups.AddToGroupAsync(Context.ConnectionId, tempId);
             return tempId;
         }
+
+
+        public async Task SendICECandidate(string _event,string id)   {
+          await  this.Clients.Client(id).SendAsync("RecivedICECandidate",_event);  
+        }
+        public async Task AnswerStreamingCall(string offer,string id )
+        {
+            await this.Clients.Client(id).SendAsync("CallAccepted", offer);
+        }
     }
 }

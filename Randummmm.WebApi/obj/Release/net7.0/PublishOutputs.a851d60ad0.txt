@@ -1,0 +1,13 @@
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Randummmm.WebApi.exe
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Randummmm.WebApi.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Randummmm.WebApi.deps.json
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Randummmm.WebApi.runtimeconfig.json
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Randummmm.WebApi.pdb
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jarih\source\repos\Randummmm\Randummmm.WebApi\obj\Release\net7.0\PubTmp\Out\System.Device.Gpio.dll
